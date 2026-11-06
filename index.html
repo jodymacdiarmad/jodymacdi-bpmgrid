@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BPM grid</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <main>
+    <p class="kicker">Jody Mac Diarmada · riff</p>
+    <h1>BPM grid</h1>
+    <p class="lede">Local board for notes, ranks, and running totals. Seed 90163573443884.</p>
+    <form id="f">
+      <input id="key" placeholder="label" autocomplete="off" />
+      <input id="val" placeholder="value" inputmode="decimal" />
+      <button type="submit">Add</button>
+    </form>
+    <ul id="list"></ul>
+    <pre id="sum"></pre>
+  </main>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
